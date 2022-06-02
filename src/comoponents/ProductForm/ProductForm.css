@@ -1,0 +1,299 @@
+.overLayCreateProduct{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .viewportFormCreateProd{
+    background-color: rgba(71, 71, 71, 0.1);
+    height: 100vh;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+    display: flex;
+} */
+.allProductForm {
+    width: 700px;
+    min-height: 550px;
+    background-color: rgba(23, 49, 87);
+    border-radius: 5px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+.titleProduct {
+    width: 362px;
+    color: white;
+    font-family: 'Trebuchet MS', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.botonCerrarCreateForm{
+    position: relative;
+    bottom:50px;
+    left: 650px;
+}
+.contentForm {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+.boxColumnas1y2{
+    display: flex;
+}
+.boxColumna1PF{
+    /* background-color: chartreuse; */
+    width: 350px;
+}
+.boxColumna2PF{
+    /* background-color: rgb(70, 113, 28); */
+    width: 350px;
+}
+.productDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    max-height: 105px;
+   margin-bottom: 10px;
+    padding-left: 25px;
+    /* margin-left: 25px; */
+    /* background-color: aquamarine; */
+}
+.productDiv2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    max-height: 105px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    /* background-color: rgb(51, 114, 93); */
+}
+.marcaDiv {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+    max-height: 70px;
+    /* padding-bottom: 10px; */
+    background-color: rgb(61, 143, 115);
+}
+
+.titlesNNO{
+    color: white;
+    font-family: 'Trebuchet MS', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.inputsProductForm {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    /* width: 200px;
+    margin-bottom: 5px; */
+}
+.inputsProductFormDes {
+    width: 300px;
+    height: 90px;
+    border: none;
+    border-radius: 10px;
+    /* width: 200px;
+    margin-bottom: 5px; */
+}
+  
+.descuentoDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 220px;
+    height: 82px;
+    background-color: rgb(22, 126, 126);
+}
+.precioDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 220px;
+    max-height: 105px;
+    background-color: aqua;
+}
+
+.contentMMC {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    padding: 10px;
+    min-width: 35%;
+    max-height: 65px;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+
+   
+
+        .inputMarca {
+            width: 200px;
+            height: 30px;
+            margin-bottom: 5px;
+            /* margin-right: 10px; */
+        }
+
+        .imputMarcaImag{
+            width: 300px;
+            height: 50px;
+        }
+
+        .contentDCE {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 5px;
+            padding: 10px;
+            min-width: 35%;
+            max-height: 70px;
+            justify-content: space-between;
+            /* background-color: burlywood; */
+        }
+
+        .dimensionDiv {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 200px;
+            min-height: 70px;
+            padding-bottom: 10px;
+            /* background-color: darkgreen; */
+            
+            }
+
+            .selectDiv {
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 200px;
+                padding-bottom: 10px;
+                /* background-color: cornflowerblue; */
+                }
+
+                .selectForm {
+                    position: relative;
+                    /* top: 8px; */
+                    width: 300px;
+                    height: 30px;
+                }
+
+               
+                /* VER ESTOS DOS PORQUE HECEN ESO */
+                .otroDiv {
+                    display: flex;
+                    flex-wrap: wrap;
+                    max-width: 300px;
+                    max-height: 70px;
+                    padding-bottom: 10px;
+                    /* background-color: crimson; */
+                    }
+                    .imputMarcaOtro{
+                        width: 300px;
+                        height: 30px;
+                        margin-bottom: 5px;
+                    }
+
+                .contentID {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-top: 5px;
+                    padding: 10px;
+                    min-width: 50%;
+                    max-height: 70px;
+                    margin-top: 20px;
+                    justify-content: space-between;
+                    /* background-color: darkkhaki; */
+                }
+
+                .imagenDiv {
+                    display: flex;
+                    flex-wrap: wrap;
+                    max-width: 150px;
+                    height: 50px;
+                    padding-bottom: 10px;
+                    /* background-color: cornflowerblue; */
+                }
+
+                .area {
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding-bottom: 10px;
+                    margin-top: 20px;
+                    min-width: 50%;
+                    min-height: 15%;
+                    /* background-color: cyan; */
+                }
+
+                .inputArea {
+                    width: 550px;
+                    height: 50px;
+                }
+
+                .buttonProduct {
+                    width: 200px;
+                    height: 40px;
+                    background-color: #ef3d52;;
+                    border: none;
+                    border-radius: 10px;
+                    color: white;
+                    margin-left: 240px;
+                    margin-top: 10px;
+                    cursor: pointer;
+                }
+                .buttonProduct:hover{
+                    background-color: #716d6e;
+                }
+              
+
+                .selectDivCat {
+                    display: flex;
+                    flex-wrap: wrap;
+                    max-width: 200px;
+                    max-height: 40px;
+                    padding-bottom: 10px;
+                    /* background-color: darkorchid; */
+                }
+                .errosCreateLarge{
+                    /* background-color: black; */
+                    text-align: center;
+                    margin-top: 5px;
+                    font-family: 'Trebuchet MS', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif;
+                    color:  #ced6de;
+                    width: 300px;
+                    line-height : 17px;
+                }
+                /* .errosCreateSmall{
+                    background-color: black;
+                    margin-top: 2px;
+                    font-family: 'Trebuchet MS', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif;
+                    color:  #ced6de;
+                    width: 220px;
+                    line-height : 17px;
+                } */
+                .errosCreateOffer{
+                    position: relative;
+                    bottom: 6px;
+                    margin-top: 7px;
+                    /* background-color: blue; */
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    color: red;
+                    max-width: 250px;
+                    line-height : 15px;
+                }
+                .errosCreatePrice{
+                    position: relative;
+                    bottom:10px;
+                    margin-top: 7px;
+                    /* background-color: blue; */
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    color: red;
+                    max-width: 250px;
+                    line-height : 15px;
+                }
